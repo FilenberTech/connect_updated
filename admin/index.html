@@ -46,10 +46,28 @@
                         <button class="nav-lin">HOME</button>
                     </a>
 
+                    <div class="dropdown ">
+                            <a class="" href="">
+                                <button class="nav-lin text-uppercase">Article</button>
+                            </a>
+                        <div class="dropdown-content ">
+                                <a class="" href="../agri/index.html">
+                                    <button class="nav-lin text-uppercase">Agri</button>
+                                </a><br>
+                                <a class="" href="../gps/index.html">
+                                    <button class="nav-lin text-uppercase">Gps </button>
+                                </a><br>
+                                <a class="" href="../export/index.html">
+                                    <button class="nav-lin text-uppercase">import/export</button>
+                                </a>
+                        </div>
+                      </div>
+
                     <a href="../post/index.html">
                         <button class="nav-lin">
                             <li class="fa fa-plus text-white"></li> CREATE POST</button>
                     </a>
+                    
 
                     <a class="" href="../login/index.html">
                         <button class="nav-lin">LOGOUT</button>
@@ -60,6 +78,29 @@
         </nav>
 
     </section>
+
+    <style>
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #454483;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          padding: 12px 16px;
+          z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        </style>
+
+
 
     <!-- NEWS Feed -->
     <section class="bg-white section">
