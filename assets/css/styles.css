@@ -1,3 +1,5 @@
+
+
 /* fixed social*/
 #fixed-social {
    position: fixed;
@@ -902,9 +904,22 @@ h1{
 
 
 
+.badge{
+  z-index: 99999999999;
+  position: fixed;
+  background: #EB1471;
+  color: #FFFFFF;
+  border-left-color: white;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  margin-top: -30px;
+  margin-left: 35px;
+  box-shadow: 2px 2px 2px 2px rgb(255,255,255,.1);
+  
+}
 
-
-
-
-/* post editor */
 
